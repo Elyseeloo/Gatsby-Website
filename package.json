@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-hello-world",
   "private": true,
-  "homepage": "https://Elyseeloo.github.io/Gatsby-Website",
+  "homepage": "https://elyseeloo.github.io/Gatsby-Website/",
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "predeploy": "yarn run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
