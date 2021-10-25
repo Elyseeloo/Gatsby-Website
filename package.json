@@ -6,16 +6,15 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "react-scripts develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
