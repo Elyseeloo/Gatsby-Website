@@ -24,7 +24,8 @@ export const aboutData = {
     "When I'm not building websites, I spend my time pursuing other hobbies such as writing, playing guitar, painting, and learning through online classes of various subjects. I am very much into improving myself and discovering new and various ways to level up my work.",
   paragraphThree:
     "I'm currently learning SASS principles, AWS, as well as finishing my certificate training in Web Development.",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:47f6f534-c338-4427-8b83-346af1b2c586', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
