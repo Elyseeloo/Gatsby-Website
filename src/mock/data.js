@@ -35,8 +35,8 @@ export const projectsData = [
     title: 'TinDog',
     info: 'A fun and quirky website based off of Tinder. This website was my first time using Bootstrap and its column classes, which I found to be an easy and efficient way of creating a website interface, and was thus implemented in later projects. Deployed through GitHub.',
     info2: '',
-    url: 'https://elyseeloo.github.io/TinDog/',
-    repo: 'https://github.com/Elyseeloo/TinDog.git', // if no repo, the button will not show up
+    url: 'https://elyseeloo.github.io/TinDog-Website/',
+    repo: 'https://github.com/Elyseeloo/TinDog-Website', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
