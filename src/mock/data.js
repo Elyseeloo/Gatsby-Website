@@ -42,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Loop Studios',
-    info: 'This website was created through a design challenge from Frontend Mentor. Used HTML and CSS. I also used Bootstrap for the layout and grid sections. Deployed with Netifly.',
+    info: 'This website was created through a design challenge from Frontend Mentor. Used HTML and CSS. I also used Bootstrap for the layout and grid sections. Deployed with Netlifly.',
     info2: 'The original challenge can be found here: link',
     url: 'https://blissful-golick-c57856.netlify.app/',
     repo: 'https://github.com/Elyseeloo/Loop-Studios', // if no repo, the button will not show up
@@ -97,7 +97,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project8.png',
     title: 'Simon Game',
-    info: "A challenging mini game created with JavaScript. A project done through my certification course. Try to memorize the pattern and see what's the hightest level you can reach! Layout and design are done by instructor, JavaScript done by me. Deployed with Netifly.",
+    info: "A challenging mini game created with JavaScript. A project done through my certification course. Try to memorize the pattern and see what's the hightest level you can reach! Layout and design are done by instructor, JavaScript done by me. Deployed with Netlifly.",
     info2: '',
     url: 'https://sleepy-tesla-f50e8e.netlify.app/',
     repo: 'https://github.com/Elyseeloo/Simon-Game', // if no repo, the button will not show up
