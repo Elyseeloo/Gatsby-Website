@@ -16,10 +16,20 @@
   z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
-
-  background: url("/src/images/background-img.jpg");
-  background-position: center;
-  background-size: cover;
+  #myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+}
+  // background: url("../images/background-img.jpg");
+  // background-position: center;
+  // background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
