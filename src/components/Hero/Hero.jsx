@@ -29,17 +29,17 @@ const Header = () => {
         </video>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'} <br />
-            <span className="text-color-main my-name">{name || 'Your Name'}</span>
+            {title} <br />
+            <span className="text-color-main my-name">{name}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta}
               </Link>
             </span>
           </p>
