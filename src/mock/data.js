@@ -44,8 +44,7 @@ export const projectsData = [
     img: 'project2.png',
     title: 'Loop Studios',
     info: 'This website was created through a design challenge from Frontend Mentor. Used HTML and CSS. I also used Bootstrap for the layout and grid sections. Deployed with Netlifly.',
-    info2:
-      'https://www.frontendmentor.io/solutions/responsive-layout-using-bootstrap-grid-O79teGqbs',
+    info2: '',
     url: 'https://blissful-golick-c57856.netlify.app/',
     repo: 'https://github.com/Elyseeloo/Loop-Studios', // if no repo, the button will not show up
   },
