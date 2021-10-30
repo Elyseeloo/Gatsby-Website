@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'My name is Elyse and I am a 21-year old Software Engineer based in Philadelphia. I am a recent college graduate with an Associates in Engineering. I have frontend and backend capabilities and use both to make various web applications. I started dabbling in coding when I was 13 through modifying custom Tumblr themes. Since then, the world of programming has left its mark. Some of the programs I currently use include React, React Hooks, Bootstrap, Node/Express.js, and Heroku to name a few.',
+    "My name is Elyse and I am a 21-year old Software Engineer based in Philadelphia. I am a recent college graduate with an Associates in Engineering. I have frontend and backend capabilities and use both to make various web applications. I have been building Frontend focused websites for over three years. My interest in coding started when I was 13 through modifying custom Tumblr themes. Since then, I've taken college classes in Web Development and Design and am currently enrolled in a Full Stack course where I'm learning to apply backend functionality as well. My stack currently includes React, Bootstrap, Node/Express.js, and Heroku and Git to name a few, though I am always eager to learn new languages and interfaces to take my development process to the next level.",
   paragraphTwo:
-    "When I'm not building websites, I spend my time pursuing other hobbies such as writing, playing guitar, painting, and learning through online classes of various subjects. I am very much into improving myself and discovering new and various ways to level up my work.",
+    "When I'm not building websites, I spend my time pursuing other hobbies such as writing, playing guitar, painting, and learning through online classes of various subjects. I am very much into improving myself and discovering new and various ways to level up my work and personal life.",
   paragraphThree:
-    "I'm currently learning SASS principles, AWS, as well as finishing my certificate training in Web Development.",
+    "Aside from the technologies I'm currently using, I am also taking courses to learn AWS and Kotlin for mobile development, as well as finishing my certificate in Web Development where I will aquire the skills needed to use database languages SQL, MongoDB and Mongoose.",
   resume:
     'https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:47f6f534-c338-4427-8b83-346af1b2c586', // if no resume, the button will not show up
 };
