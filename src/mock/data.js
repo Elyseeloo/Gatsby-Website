@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphThree:
     "Aside from the technologies I'm currently using, I am also taking courses to learn AWS and Kotlin for mobile development, as well as finishing my certificate in Full Stack Development where I will aquire the skills needed to use database languages SQL, MongoDB and Mongoose.",
   resume:
-    'https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:d97e583b-aadc-4f3d-933f-8139b1c4a4ea', // if no resume, the button will not show up
+    'https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:e388e783-e030-4a55-b5ad-182620137da2', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
