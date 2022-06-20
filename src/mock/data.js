@@ -19,17 +19,81 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "My name is Elyse and I am a 21-year old Software Engineer based in Philadelphia. I am a recent college graduate with an Associates in Engineering. I have frontend and backend capabilities and use both to make various web applications. I have been building Frontend focused websites for over three years. My interest in coding started when I was 13 through modifying custom Tumblr themes. Since then, I've taken college classes in Web Development and Design and am currently enrolled in a Full Stack course where I am learning to apply backend functionality as well. My stack currently includes React, Bootstrap, and Node/Express.js, to name a few, though I am always eager to learn new languages and interfaces to take my development process to the next level.",
+    "My name is Elyse and I am a 22-year old Software Engineer based in Philadelphia. I am a college graduate with an Associates in Engineering. I also have a certificate in Full Stack Engineering, using frontend and backend capabilities to make dynamic web applications. I have been building websites for over three years. My interest in coding started when I was 13 through modifying custom Tumblr themes. Since then, I've taken college classes in Web Development and Design and am currently enrolled in a Full Stack course where I am learning to apply backend functionality as well. My stack currently includes HTML/CSS, JavaScript, React, Bootstrap, Node/Express.js, MongoDB, and Mongoose to name a few, though I am always eager to learn new languages and interfaces to take my development process to the next level.",
   paragraphTwo:
     "When I'm not building websites, I spend my time pursuing other hobbies such as writing, playing guitar, painting, and learning through online classes of various subjects. I love the idea of improving myself and discovering new and diverse ways to level up my work and personal life.",
   paragraphThree:
-    "Aside from the technologies I'm currently using, I am also taking courses to learn AWS and Kotlin for mobile development, as well as finishing my certificate in Full Stack Development where I will aquire the skills needed to use database languages SQL, MongoDB and Mongoose.",
+    "Aside from the technologies I'm currently using, I am also taking courses to learn Graphic and Web Design to enrich my web applications with beautiful interfaces.",
   resume:
     'https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:e388e783-e030-4a55-b5ad-182620137da2', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project4.png',
+    title: 'Keeper App',
+    info: 'A cute replica of the Google Keep web application. Built with React and React Hooks. This was a final project for the React unit in my certificate course. This project is what made me fall in love with React Hooks and Components, and especially the JSX language. Majority of CSS done by instructor, but a few personal tweaks were added by me. Icons and Zoom animations done through Material UI.',
+    info2: '',
+    url: 'https://elyseeloo.github.io/Keeper-App/',
+    repo: 'https://github.com/Elyseeloo/Keeper-App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project9.png',
+    title: 'Secrets App',
+    info: 'An app based off of the Whisper app. Uses Google Authentication for login and MongoDB and Mongoose for the backend. Make an account and submit a secret!',
+    info2: '',
+    url: 'https://fierce-mountain-13724.herokuapp.com/',
+    repo: 'https://github.com/Elyseeloo/SecretsApp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project8.png',
+    title: 'ToDo List With Database',
+    info: 'A Todo List App with a built in database using MongoDB and Mongoose.',
+    info2: '',
+    url: 'https://enigmatic-island-55573.herokuapp.com/',
+    repo: 'https://github.com/Elyseeloo/Todo-List-Database', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project3.png',
+    title: 'Weather App',
+    info: 'One of my very first projects created using Node.js and Express. Styled with pure CSS and a video embedded background. This project was a rewarding opportunity to learn about the wonders of API implementation. Deployed with Heroku.',
+    info2:
+      'Type in any city name into the search bar and get an immediate, current weather report. Make sure you spell the city name properly!',
+    url: 'https://protected-waters-73120.herokuapp.com/',
+    repo: 'https://github.com/Elyseeloo/Weather-App', // if no repo, the button will not show up
+  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project5.png',
+  //   title: 'ToDo List App',
+  //   info: 'An organization app made with React. The JS and JSX files are purely created by me. Type in an item into the text box, click the butotn to add it to the list. Click an item once to cross it out, and twice to delete it from the list.',
+  //   info2: '',
+  //   url: 'https://elyseeloo.github.io/ToDo-List/',
+  //   repo: 'https://github.com/Elyseeloo/ToDo-List', // if no repo, the button will not show up
+  // },
+  {
+    id: nanoid(),
+    img: 'project7.png',
+    title: 'Blog Website',
+    info: 'A blog website where you can create and upload your on blog post.',
+    info2: '',
+    url: 'https://pacific-fortress-09119.herokuapp.com/',
+    repo: 'https://github.com/Elyseeloo/Blog-Website', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project6.png',
+    title: 'Newsletter Sign Up',
+    info: 'A Node.js app that uses the MailChimp API to configure a personal mailing list. A willing subscriber types in their information and they are automatically added to your MailChimp account in a mailing list of your choosing. Styles with HTML, CSS, and a Bootstrap layout. Deployed through Heroku.',
+    info2: '',
+    url: 'https://sleepy-scrubland-40374.herokuapp.com/',
+    repo: 'https://github.com/Elyseeloo/Newsletter', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project1.png',
@@ -47,61 +111,6 @@ export const projectsData = [
     info2: '',
     url: 'https://blissful-golick-c57856.netlify.app/',
     repo: 'https://github.com/Elyseeloo/Loop-Studios', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project3.png',
-    title: 'Weather App',
-    info: 'One of my very first projects created using Node.js and Express. Styled with pure CSS and a video embedded background. This project was a rewarding opportunity to learn about the wonders of API implementation. Deployed with Heroku.',
-    info2:
-      'Type in any city name into the search bar and get an immediate, current weather report. Make sure you spell the city name properly!',
-    url: 'https://protected-waters-73120.herokuapp.com/',
-    repo: 'https://github.com/Elyseeloo/Weather-App', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project4.png',
-    title: 'Keeper App',
-    info: 'A cute replica of the Google Keep web application. Built with React and React Hooks. This was a final project for the React unit in my certificate course. This project is what made me fall in love with React Hooks and Components, and especially the JSX language. Majority of CSS done by instructor, but a few personal tweaks were added by me. Icons and Zoom animations done through Material UI.',
-    info2: '',
-    url: 'https://elyseeloo.github.io/Keeper-App/',
-    repo: 'https://github.com/Elyseeloo/Keeper-App', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project5.png',
-    title: 'ToDo List App',
-    info: 'An organization app made with React. CSS is not mine, but the JS and JSX files are purely created by me. Type in an item into the text box, click the butotn to add it to the list. Click an item once to cross it out, and twice to delete it from the list.',
-    info2: '',
-    url: 'https://elyseeloo.github.io/ToDo-List/',
-    repo: 'https://github.com/Elyseeloo/ToDo-List', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project6.png',
-    title: 'Newsletter Sign Up',
-    info: 'A Node.js app that uses the MailChimp API to configure a personal mailing list. A willing subscriber types in their information and they are automatically added to your MailChimp account in a mailing list of your choosing. Styles with HTML, CSS, and a Bootstrap layout. Deployed through Heroku.',
-    info2: '',
-    url: 'https://sleepy-scrubland-40374.herokuapp.com/',
-    repo: 'https://github.com/Elyseeloo/Newsletter', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project7.png',
-    title: 'Preview Card',
-    info: 'Another design-based project from Frontend Mentor. Styled with pure CSS and semantic HTML and fully responsive.',
-    info2: '',
-    url: 'https://elyseeloo.github.io/stats-preview-card-component-main/',
-    repo: 'https://github.com/Elyseeloo/stats-preview-card-component-main', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project8.png',
-    title: 'Simon Game',
-    info: "A challenging mini game created with JavaScript. A project done through my certification course. Try to memorize the pattern and see what's the hightest level you can reach! Layout and design are done by instructor, JavaScript done by me. Deployed with Netlifly.",
-    info2: '',
-    url: 'https://sleepy-tesla-f50e8e.netlify.app/',
-    repo: 'https://github.com/Elyseeloo/Simon-Game', // if no repo, the button will not show up
   },
 ];
 
