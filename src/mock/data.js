@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Elyse Chambers | Software Engineer',
+  title: 'Elyse Chambers | Web Developer',
   lang: 'en',
-  description: 'Software Engineer portfolio website of Elyse Chambers',
+  description: 'Web Developer portfolio website of Elyse Chambers',
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Elyse',
-  subtitle: 'and I am a Software Engineer',
+  subtitle: 'and I am a Web Developer',
   cta: 'Welcome to my world',
 };
 
@@ -19,17 +19,44 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "My name is Elyse and I am a 22-year old Software Engineer based in Philadelphia. I am a college graduate with an Associates in Engineering. I also have a certificate in Full Stack Engineering, using frontend and backend capabilities to make dynamic web applications. I have been building websites for over three years. My interest in coding started when I was 13 through modifying custom Tumblr themes. Since then, I've taken college classes in Web Development and Design and am currently enrolled in a Full Stack course where I am learning to apply backend functionality as well. My stack currently includes HTML/CSS, JavaScript, React, Bootstrap, Node/Express.js, MongoDB, and Mongoose to name a few, though I am always eager to learn new languages and interfaces to take my development process to the next level.",
+    "My name is Elyse and I am a 23-year old Web Developer based in Philadelphia. I am a college graduate with an Associates in Engineering. I also have a certificate in Full Stack Engineering, using frontend and backend capabilities to make dynamic web applications. I have been building websites for over four years. My interest in coding started when I was 13 through modifying custom Tumblr themes. Since then, I've taken college classes in Web Development and Design and have a certificate in Full Stack Engineering where I learned to apply backend functionality as well. My stack currently includes HTML/CSS, JavaScript, React, Bootstrap, Node/Express.js, MongoDB, and WordPress to name a few, though I am always eager to learn new languages and interfaces to take my development process to the next level.",
   paragraphTwo:
     "When I'm not building websites, I spend my time pursuing other hobbies such as writing, playing guitar, painting, and learning through online classes of various subjects. I love the idea of improving myself and discovering new and diverse ways to level up my work and personal life.",
   paragraphThree:
     "Aside from the technologies I'm currently using, I am also taking courses to learn Graphic and Web Design to enrich my web applications with beautiful interfaces.",
   resume:
-    'https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:e388e783-e030-4a55-b5ad-182620137da2', // if no resume, the button will not show up
+    '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project10.png',
+    title: 'Say Less Website',
+    info: 'A portfolio website I made for a client using Elementor and WordPress CMS. Custom theme made with a responsive, mobile-friendly design and animated CSS effects. s',
+    info2: '',
+    url: 'https://sayless.studio',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project1.png',
+    title: 'TinDog',
+    info: 'A fun and quirky website based off of Tinder. This website was my first time using Bootstrap and its column classes, which I found to be an easy and efficient way of creating a website interface, and was thus implemented in later projects. Deployed through GitHub.',
+    info2: '',
+    url: 'https://elyseeloo.github.io/TinDog-Website/',
+    repo: 'https://github.com/Elyseeloo/TinDog-Website', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project2.png',
+    title: 'Loop Studios',
+    info: 'This website was created through a design challenge from Frontend Mentor. Used HTML and CSS. I also used Bootstrap for the layout and grid sections. Deployed with Netlifly.',
+    info2: '',
+    url: 'https://blissful-golick-c57856.netlify.app/',
+    repo: 'https://github.com/Elyseeloo/Loop-Studios', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project4.png',
@@ -38,6 +65,15 @@ export const projectsData = [
     info2: '',
     url: 'https://elyseeloo.github.io/Keeper-App/',
     repo: 'https://github.com/Elyseeloo/Keeper-App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project11.png',
+    title: 'Simon Game',
+    info: "A challenging mini game created with JavaScript. A project done through my certification course. Try to memorize the pattern and see what's the hightest level you can reach! Layout and design are done by instructor, JavaScript done by me. Deployed with Netifly.",
+    info2: '',
+    url: 'https://sleepy-tesla-f50e8e.netlify.app/',
+    repo: 'https://github.com/Elyseeloo/Simon-Game', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -93,24 +129,6 @@ export const projectsData = [
     info2: '',
     url: 'https://sleepy-scrubland-40374.herokuapp.com/',
     repo: 'https://github.com/Elyseeloo/Newsletter', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project1.png',
-    title: 'TinDog',
-    info: 'A fun and quirky website based off of Tinder. This website was my first time using Bootstrap and its column classes, which I found to be an easy and efficient way of creating a website interface, and was thus implemented in later projects. Deployed through GitHub.',
-    info2: '',
-    url: 'https://elyseeloo.github.io/TinDog-Website/',
-    repo: 'https://github.com/Elyseeloo/TinDog-Website', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project2.png',
-    title: 'Loop Studios',
-    info: 'This website was created through a design challenge from Frontend Mentor. Used HTML and CSS. I also used Bootstrap for the layout and grid sections. Deployed with Netlifly.',
-    info2: '',
-    url: 'https://blissful-golick-c57856.netlify.app/',
-    repo: 'https://github.com/Elyseeloo/Loop-Studios', // if no repo, the button will not show up
   },
 ];
 
